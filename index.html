@@ -4,8 +4,8 @@
     <meta charset="utf-8" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>DeliveryDriver</title>
-    <link rel="shortcut icon" href="TemplateData/favicon.ico" />
-    <link rel="stylesheet" href="TemplateData/style.css" />
+    <link rel="shortcut icon" href="WebBuild/TemplateData/favicon.ico" />
+    <link rel="stylesheet" href="WebBuild/TemplateData/style.css" />
   </head>
   <body>
     <div id="unity-container" class="unity-desktop">
@@ -20,7 +20,7 @@
       <div id="unity-footer">
         <div id="unity-webgl-logo"></div>
         <div id="unity-fullscreen-button"></div>
-        <div id="unity-build-title">DeliveryDriver</div>
+        <div id="unity-build-title">Delivery Driver by Darius Fang</div>
       </div>
     </div>
     <script>
@@ -57,8 +57,8 @@
         }
         updateBannerVisibility();
       }
-
-      var buildUrl = "Build";
+      var path = "WebBuild/";
+      var buildUrl = path + "Build";
       var loaderUrl = buildUrl + "/WebBuild.loader.js";
       var config = {
         dataUrl: buildUrl + "/WebBuild.data",
